@@ -1,0 +1,51 @@
+$primaryColor: rgb(75, 75, 75);
+$secondaryColor: rgb(126, 126, 126);
+$primaryAccentColor: white;
+$secondaryAccentColor: white;
+
+.presentationContainer {
+    .slide {
+        width: 100vw;
+        height: 100vh;
+
+        background-color: $primaryColor;
+        color: $secondaryAccentColor;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 2.5rem;
+        font-family: sans-serif;
+
+        &:nth-child(2n) {
+            background-color: $secondaryColor;
+            color: $secondaryAccentColor;
+        }
+
+        p {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        i {
+            color: rgb(20, 128, 200);
+        }
+
+        img {
+            max-width: 80%;
+        }
+    }
+
+    .firstBold {
+        p:first-child {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.example {
+    padding: 4rem;
+}

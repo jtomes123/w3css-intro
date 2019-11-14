@@ -1,0 +1,49 @@
+.presentationContainer .slide {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4b4b4b;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+
+.presentationContainer .slide:nth-child(2n) {
+  background-color: #7e7e7e;
+  color: white;
+}
+
+.presentationContainer .slide p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.presentationContainer .slide i {
+  color: #1480c8;
+}
+
+.presentationContainer .slide img {
+  max-width: 80%;
+}
+
+.presentationContainer .firstBold p:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.example {
+  padding: 4rem;
+}
+/*# sourceMappingURL=styles.css.map */
